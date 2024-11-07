@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecs</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-entity geometry="primitive:box" material="color:#e92e7f" ligth="type:point; intesity:0.5" position="0 1 -1">
+        <a-entity geometry="primitive:cone; radiusBottom:1; radiusTop:0.1" position="0 1.25 -5" ligth="type:point; intesity:0.5" material="color:#cb89a6">
+        <a-entity geometry="primitive:cylinder; height: 3; radius: 2" position="0 0.75 -3" ligth="type:point; intesity:0.5" material="color:#5e7a82">
+        <a-sky color="#ffebf9"></a-sky>
+    </a-scene>
+
+</body>
+</html>
