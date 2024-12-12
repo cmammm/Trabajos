@@ -5,4 +5,4 @@
 Este repositorio contiene los codigos de la unidad 3. El software que utilizamos es *Visual Studio Code* y la biblioteca **Afreme**.  
 Vínculos de las tecnologías:  
 [Aframe](https://aframe.io/)  
-Clase 5 Ejercicio de Identidades **ECS** en A-frame
+Hasta el momento hemos visto: **Formas, Cielo/Piso, Texto, ECS, Ambientes, Coallision, Navmesh, Video** en A-frame 
