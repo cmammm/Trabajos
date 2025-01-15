@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entorno</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-entity environment="preset: osiris; dressingAmount: 10; ground:spikes"></a-entity>
+        <a-entity geometry="primitive: box; width: 1; height: 1; depth: 1" position="-1 0.5 -3" rotation="0 45 0" material="src: assets/Jaemin face png.jpeg"></a-entity>
+        <a-entity geometry="primitive: sphere; radius: 2"  material="src: assets/jaemin pou.jpeg" position="0 1.25 -5" radius="1.25"></a-entity>
+        <a-entity text="color: #4d113b; font: font\Mangiola-Regular-msdf.json; fontImage: font\Mangiola-Regular.png; negate: false; value: Artistas\n Ana Mendieta\t Ana Mendieta\r Ana Mendieta" scale="4 4 2" position="1.60742 1.31781 -2.27807" "=""></a-entity>
+
+
+    </a-scene>
+
+</body>
+</html>
